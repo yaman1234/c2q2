@@ -1,0 +1,92 @@
+To:    Proponent
+
+Attn:  Sales Department
+
+       3120 E. Enterprise St.
+
+       Brea, CA 92821
+
+       United States
+
+ 
+
+You have received a Request for Quote from:
+
+ 
+
+     Dart Aviation Technics - Dart Commercial
+
+     23 rue des Villegranges
+
+     Paris - Les Lilas, 93260
+
+     France
+
+     E-mail: april.washburn@seattleaero.com
+
+     Phone:  33 188336957
+
+     Fax:  33 1234567890
+
+ 
+
+     RFQ No:  ILSB1M9200923054139
+
+     Priority:  Expedite
+
+     Quote By:  Sep-26-20 05:41AM CDT(UTC-5)
+
+     Required Delivery:
+
+ 
+
+Buyer Comments:
+
+ 
+
+A quote is wanted for the following Part No.
+
+ 
+
+           Item:            01
+
+           Part No:      NAS516-1A
+
+           Description:     ANTENNA
+
+           Quantity:        80
+
+           Unit of Measure: pcs
+
+
+
+
+     Your ILS listings shows the following item(s):
+
+ 
+
+           Part No:     NAS516-1A
+
+           Alt Part No:   
+
+           Description:  ADF ANTENNA
+
+           Condition:    NE
+
+           Maker:        
+
+           Model:        
+  
+
+
+ 
+
+To enter your quote and access ILS' latest Fair Market Value (FMV) on requested parts, go to this URL for Fast Quote:
+
+http://quote.ilsmart.com/Authenticate?TFYV-10PA-4107
+
+or log in to ILS at: http://quote.ilsmart.com Enter entry code: TFYV-10PA-4107
+
+ 
+
+Do not reply to this email
