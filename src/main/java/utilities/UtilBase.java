@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -15,13 +16,6 @@ import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
-/**
- * this class is for global driver, this driver is shared by all child classes
- * 
- * @author sanish
- *
- */
 public class UtilBase {
 
 	// global driver(s) initialization, visible to child classes
@@ -29,6 +23,12 @@ public class UtilBase {
 	protected static Actions actions = null;
 	protected static JavascriptExecutor jsDriver = null;
 
+	
+//	global vairables
+	protected String sf_case = "";
+	
+	
+	
 	public static void initialiseDriver() {
 //		String browserName = ExcelRead.getData(1, 2, 0);
 		String browserName = "chrome";
@@ -53,6 +53,16 @@ public class UtilBase {
 		jsDriver = (JavascriptExecutor) driver;
 	}
 
+	public static void initialiseDriverwithprofile(String userProfilePath){
+		WebDriverManager.chromedriver().setup();
+		  // Create a ChromeOptions object.
+        ChromeOptions options = new ChromeOptions();
+
+        // Set the path to the user profile directory.
+        options.addArguments("user-data-dir=" + userProfilePath);
+        // Launch Chrome with the configured options.
+        driver = new ChromeDriver(options);
+	}
 	/**
 	 * Captures screenshot of the current window of the browser driver
 	 * 
