@@ -5,9 +5,9 @@
     <classes>
       <class name="test_functional.Test_Salesforce">
         <methods>
-          <include name="precondition"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="US01_TC05"/>
         </methods>
       </class> <!-- test_functional.Test_Salesforce -->
     </classes>

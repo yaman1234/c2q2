@@ -25,7 +25,7 @@ public class UtilBase {
 
 	
 //	global vairables
-	protected String sf_case = "";
+	protected String sf_case_global = "";
 	
 	
 	
@@ -62,6 +62,7 @@ public class UtilBase {
         options.addArguments("user-data-dir=" + userProfilePath);
         // Launch Chrome with the configured options.
         driver = new ChromeDriver(options);
+        jsDriver = (JavascriptExecutor) driver;
 	}
 	/**
 	 * Captures screenshot of the current window of the browser driver
